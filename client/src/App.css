@@ -1,3 +1,39 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.information {
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(240, 171, 171);
+  width: 70%;
+}
+
+.information input {
+  text-align: center;
+  justify-content: center;
+  margin: 5px auto 5px auto;
+  font-size: 20px;
+  width: 40%;
+}
+
+.information label {
+  text-align: center;
+  margin: 2px auto 2px auto;
+  font-size: 20px;
+}
+
+.information button {
+  text-align: center;
+  margin: 8px auto 2px auto;
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+}
+
+
